@@ -9,7 +9,6 @@ The City of Vancouver offers open datasets including business licenses, property
 # Dataset Used:
   •	File: business-licences.csv
   •	Source: City of Vancouver Open Data
-  •	Size: ~130KB
   •	Fields: Business ID, Category, Licence Date, Status, Location, etc.
 # Methodology:
 1.	Data Ingestion: 
