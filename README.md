@@ -31,7 +31,7 @@ The City of Vancouver offers open datasets including business licenses, property
   •	Data pipeline architecture was documented using draw.io.
 # AWS Services Used:
 - AWS Service    - Purpose
-  -S3	              -Raw + Processed Data Storage
+  -S3	             -Raw + Processed Data Storage
   -Glue Studio	   -Visual ETL + Data Quality Control Logic
   -Glue Jobs 	     -Schema transformation + Conditional routing
   -Draw.io	       -Visualizing architecture and data flow
