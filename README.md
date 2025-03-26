@@ -17,21 +17,21 @@ The City of Vancouver offers open datasets including business licenses, property
   •	Created a Visual ETL job in AWS Glue titled van-ani-QC-meet.
   •	Used “Evaluate Data Quality” transform.
   •	Applied schema and logical rules fields like status, licence number and extract date.
-![AWS Analysis Pipeline](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S12.png)
+![AWS Analysis Pipeline](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S12.png?raw=true)
 3.	Conditional Routing:
   •	Used “Conditional Router” to classify records as passed or failed based on the rule success.
 4.	Data Handling:
   •	Valid records stored in Quality_Check/Passed/
-![AWS S3 folder displaying vaild Records](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S13.png)
+![AWS S3 folder displaying vaild Records](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S13.png?raw=true)
   •	Invalid records stored in Quality_Check/Failed/
-![AWS S3 folder displaying Invaild Records](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S14.png)
+![AWS S3 folder displaying Invaild Records](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S14.png?raw=true)
 6.	Schema Alignment:
   •	Applied change schema transformation before loading
 7.	Output:
   •	Used S3 buckets to store the cleaned and invalid datasets separately for transparency and future auditability.
 8.	Architecture Design:
   •	Data pipeline architecture was documented using draw.io.
- ![AWS Data Quality Pipeline Architecture](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S19.png)
+ ![AWS Data Quality Pipeline Architecture](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S19.png?raw=true)
 # AWS Services Used:
 - AWS Service    - Purpose
   -S3	             -Raw + Processed Data Storage
