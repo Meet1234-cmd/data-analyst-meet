@@ -31,6 +31,7 @@ The City of Vancouver offers open datasets including business licenses, property
   •	Used S3 buckets to store the cleaned and invalid datasets separately for transparency and future auditability.
 8.	Architecture Design:
   •	Data pipeline architecture was documented using draw.io.
+ ![AWS Data Quality Pipeline Architecture](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S19.png)
 # AWS Services Used:
 - AWS Service    - Purpose
   -S3	             -Raw + Processed Data Storage
