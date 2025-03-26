@@ -2,7 +2,6 @@
 # Project Title: Data Quality Control Implementation for City of Vancouver Open Data Using AWS Glue
 # Project Description:
 This project implements a robust Data Quality Control (DQC) pipeline for open datasets provided by the City of Vancouver, using AWS Glue for automated ETL, validation, and schema monitoring. The pipeline ensures high-quality datasets by detecting and correcting data issues and separating valid and invalid records. The main dataset used was business license data, and the workflow was visualised using draw.io.
-![AWS Analysis Pipeline](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S12.png)
 # Objective:
 To build an end-to-end data quality control framework on AWS that automates profiling, validation, and monitoring of public datasets—enhancing reliability for downstream analytics and improving civic transparency.
 # Background:
@@ -18,6 +17,7 @@ The City of Vancouver offers open datasets including business licenses, property
   •	Created a Visual ETL job in AWS Glue titled van-ani-QC-meet.
   •	Used “Evaluate Data Quality” transform.
   •	Applied schema and logical rules fields like status, licence number and extract date.
+![AWS Analysis Pipeline](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S12.png)
 3.	Conditional Routing:
   •	Used “Conditional Router” to classify records as passed or failed based on the rule success.
 4.	Data Handling:
