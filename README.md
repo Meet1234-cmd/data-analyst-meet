@@ -22,12 +22,13 @@ The City of Vancouver offers open datasets including business licenses, property
   •	Used “Conditional Router” to classify records as passed or failed based on the rule success.
 4.	Data Handling:
   •	Valid records stored in Quality_Check/Passed/
+![AWS S3 folder displaying vaild Records](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S13.png)
   •	Invalid records stored in Quality_Check/Failed/
-5.	Schema Alignment:
+6.	Schema Alignment:
   •	Applied change schema transformation before loading
-6.	Output:
+7.	Output:
   •	Used S3 buckets to store the cleaned and invalid datasets separately for transparency and future auditability.
-7.	Architecture Design:
+8.	Architecture Design:
   •	Data pipeline architecture was documented using draw.io.
 # AWS Services Used:
 - AWS Service    - Purpose
