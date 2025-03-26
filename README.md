@@ -24,6 +24,7 @@ The City of Vancouver offers open datasets including business licenses, property
   •	Valid records stored in Quality_Check/Passed/
 ![AWS S3 folder displaying vaild Records](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S13.png)
   •	Invalid records stored in Quality_Check/Failed/
+![AWS S3 folder displaying Invaild Records](https://github.com/Meet1234-cmd/data-analyst-meet/blob/main/prj2S14.png)
 6.	Schema Alignment:
   •	Applied change schema transformation before loading
 7.	Output:
